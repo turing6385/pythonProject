@@ -1,0 +1,17 @@
+"""
+
+"""
+
+
+w= input()
+y=input()
+sum=0
+if w>=y:
+	for i in range(0,y):
+		r= (w-i)*(y-i)
+		sum+=r
+elif w<y:
+	for i in range(0,w):
+		r= (w-i)*(y-i)
+		sum+=r
+print(sum)
