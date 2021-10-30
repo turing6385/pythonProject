@@ -1,0 +1,12 @@
+
+
+N, K = map(int,input().split())
+
+mini= K*(K+1) // 2
+
+if mini > N:
+    print(-1)
+elif (N - mini) % K == 0:
+    print(K-1)
+else:
+    print(K)
